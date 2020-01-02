@@ -1,3 +1,5 @@
+USE burgers_db;
+
 INSERT INTO burgers (name) VALUES ('Meeses');
 INSERT INTO burgers (name) VALUES ('Bobbi');
 INSERT INTO burgers (name, sleepy) VALUES ('Sylvester', true);
