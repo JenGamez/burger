@@ -1,8 +1,8 @@
 USE burgers_db;
 
-INSERT INTO burgers (name) VALUES ('Meeses');
-INSERT INTO burgers (name) VALUES ('Bobbi');
-INSERT INTO burgers (name, sleepy) VALUES ('Sylvester', true);
-INSERT INTO burgers (name, sleepy) VALUES ('Marilyn Manson', true);
-INSERT INTO burgers (name, sleepy) VALUES ('Joe Biden', true);
-INSERT INTO burgers (name) VALUES ('Owens');
+INSERT INTO burgers (burger_name) VALUES ('TexMex');
+INSERT INTO burgers (burger_name) VALUES ('Green Chili Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ('California', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Bacon Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Worthless Vegan Burger', true);
+
